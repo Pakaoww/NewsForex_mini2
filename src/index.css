@@ -1,0 +1,81 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@plugin "daisyui/theme" {
+  name: "newsforex";
+  default: true;
+  prefersdark: false;
+  color-scheme: light;
+  --color-base-100: #ffffff;
+  --color-base-200: #f7f6f3;
+  --color-base-300: #e7e5df;
+  --color-base-content: #1f2a24;
+  --color-primary: #3d5a49;
+  --color-primary-content: #ffffff;
+  --color-secondary: #55705f;
+  --color-secondary-content: #ffffff;
+  --color-accent: #d08a2e;
+  --color-accent-content: #1f1500;
+  --color-neutral: #1f2a24;
+  --color-neutral-content: #f7f6f3;
+  --color-info: #3b82a0;
+  --color-info-content: #ffffff;
+  --color-success: #5f8f6b;
+  --color-success-content: #ffffff;
+  --color-warning: #d08a2e;
+  --color-warning-content: #1f1500;
+  --color-error: #c4493f;
+  --color-error-content: #ffffff;
+  --radius-selector: 0.5rem;
+  --radius-field: 0.5rem;
+  --radius-box: 0.75rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+}
+
+@plugin "daisyui/theme" {
+  name: "newsforex-dark";
+  default: false;
+  prefersdark: false;
+  color-scheme: dark;
+  --color-base-100: #1b221e;
+  --color-base-200: #151b18;
+  --color-base-300: #2a332e;
+  --color-base-content: #e8ece9;
+  --color-primary: #7fb08f;
+  --color-primary-content: #10201a;
+  --color-secondary: #9bc2a8;
+  --color-secondary-content: #10201a;
+  --color-accent: #e0a24a;
+  --color-accent-content: #1f1500;
+  --color-neutral: #2a332e;
+  --color-neutral-content: #e8ece9;
+  --color-info: #5aa6c4;
+  --color-info-content: #0b1a20;
+  --color-success: #7fb08f;
+  --color-success-content: #10201a;
+  --color-warning: #e0a24a;
+  --color-warning-content: #1f1500;
+  --color-error: #e0685d;
+  --color-error-content: #2a0b08;
+  --radius-selector: 0.5rem;
+  --radius-field: 0.5rem;
+  --radius-box: 0.75rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+}
+
+@theme {
+  --font-sans: "IBM Plex Sans Thai", "Noto Sans Thai", system-ui, sans-serif;
+  --font-heading: "Prompt", "IBM Plex Sans Thai", system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+}

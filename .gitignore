@@ -3,3 +3,4 @@ dist
 .vercel
 data/raw/
 .DS_Store
+*.tsbuildinfo

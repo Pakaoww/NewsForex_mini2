@@ -3,5 +3,6 @@
     "api/calendar.js": {
       "includeFiles": "api/_data/**"
     }
-  }
+  },
+  "rewrites": [{ "source": "/((?!api/).*)", "destination": "/index.html" }]
 }

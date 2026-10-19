@@ -49,6 +49,6 @@ export const API_SOURCES: ApiSource[] = [
     name: "NewsForex API (/api/calendar)",
     description:
       "REST API ที่กลุ่มพัฒนาเอง (Vercel Serverless Function) — เอกสารการใช้งานอยู่ใน README.md ของโปรเจกต์",
-    url: "https://github.com/",
+    url: "https://github.com/Pakaoww/NewsForex_mini2",
   },
 ];
